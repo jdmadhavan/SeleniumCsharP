@@ -14,6 +14,7 @@ namespace learningCSharpSelenium.TestCases
         [Test]
         public void findingLocators()
         {
+            //Test
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://www.leafground.com/dashboard.xhtml#");
