@@ -22,6 +22,7 @@ namespace learningCSharpSelenium.TestCases
             Assert.That(title, Is.EqualTo("Dashboard"));
             Thread.Sleep(1000);
             driver.Quit();
+            //NewWC
 
         }
     }
