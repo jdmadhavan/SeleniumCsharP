@@ -21,6 +21,7 @@ namespace learningCSharpSelenium.TestCases
             var title = driver.Title;
             Assert.That(title, Is.EqualTo("Selenium"));
             driver.Close();
+            //Wc        
 
         }
     }
