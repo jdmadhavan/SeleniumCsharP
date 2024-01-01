@@ -24,6 +24,9 @@ namespace learningCSharpSelenium.TestCases
             driver.Quit();
             //NewWC
 
+
+            //Added MJ Changes in the Locator class    
+
         }
     }
 }
